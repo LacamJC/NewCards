@@ -2,7 +2,7 @@ const container = document.getElementById('container');
 
 const data = [
     {
-        url_img : "/img/facebook_logo.svg",
+        url_img : "img/facebook_logo.svg",
         alt_txt : "Icone do facebook",
         body_text : "O Facebook é uma rede social que permite conversar com amigos e compartilhar mensagens, links, vídeos e fotografias",
         a_link : "#",
