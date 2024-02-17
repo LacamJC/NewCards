@@ -1,5 +1,5 @@
 const container = document.getElementById('container');
-// const apiUrl = 'http://localhost:3000/api'; // Endereço da api 
+const apiUrl = 'http://localhost:3000/api'; // Endereço da api 
 const Status = document.getElementById('status');
 
 
@@ -12,7 +12,9 @@ fetch(apiUrl)
 .then(apiData =>{
     console.log(apiData);
     const data = apiData;
-    Status.innerHTML = "Sim"
+    // Status.innerHTML = "Sim"
+    Status.classList.add('on');
+    Status.classList.remove('off')
 
     for(let i =0; i < data.length; i++)
     {
@@ -37,7 +39,9 @@ fetch(apiUrl)
     }
 }).catch(error =>{
     console.log(`Erro ao buscar dados da api: ${error}`)
-    Status.innerHTML = "Não"
+    // Status.innerHTML = "Não"
+    Status.classList.add('off');
+    Status.classList.remove('on');
     const data = [
     {
         id : "facebook",

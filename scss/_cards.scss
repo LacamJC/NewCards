@@ -16,7 +16,40 @@ $sombra--btn: rgba(0, 0, 0, 0.149);
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-size: 100%;
 }
+header
+{
+    // background-color: blue;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    h1
+    {
+        // text-align: center;
+        font-size: 2rem;
+        // margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        #status{
+            display: block;
+            // background-color: red;
+            border: 1px solid #00000017;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-left: 10px;
+        }
+
+        .on{
+            background-color: #00ff00;
+        }
+        .off{
+            background-color: #ff6666;
+        }
+    }
+}
 .container
 {
     display: flex;
