@@ -1,0 +1,32 @@
+$cor--1:#075E54;
+$cor--2:#128C7E ;
+$cor--3:#25D366;
+
+
+#whatsapp:hover
+{
+    background-color: $cor--2;
+    border: 2px solid $cor--2;
+
+    .card__body--title
+    {
+        color: white;
+    }
+
+    .card__body--text{
+        color: white;
+    }
+
+    .card__footer--btn
+    {
+        background-color: $cor--1;
+        color: white;
+        border: 1px solid $cor--2;
+
+        &:hover{
+            border: 1px solid $cor--1;
+            color: $cor--3;
+        }
+    }
+    
+}

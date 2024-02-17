@@ -1,0 +1,33 @@
+$cor--1:#0A66C2;
+$cor--2:#ffffff;
+
+
+#linkedin:hover
+{
+    background-color: $cor--1;
+    border: 1px solid $cor--1;
+
+
+    .card__body--title
+    {
+        color: white;
+    }
+
+    .card__body--text{
+        color: $cor--2;
+    }
+
+    .card__footer--btn
+    {
+        background-color: $cor--1;
+        color: $cor--2;
+        border: 1px solid white;
+
+        &:hover{
+            border: 1px solid $cor--1;
+            background-color: $cor--2;
+            color: $cor--1;
+        }
+    }
+    
+}

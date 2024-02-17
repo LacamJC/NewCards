@@ -1,0 +1,35 @@
+$cor--1: #FF0000 ;
+$cor--2: #282828 ;
+$cor--3: white ;
+
+#youtube:hover
+{
+    .card__header--img
+    {
+        filter: drop-shadow(0px 0px 2px $cor--1);
+    }
+
+    background-color: $cor--2;
+    border: 1px solid $cor--2;
+
+    .card__body--title{
+        color: $cor--1;
+    }
+
+    .card__body--text{
+        color: $cor--3;
+    }
+
+    .card__footer--btn
+    {
+        background-color: $cor--1;
+        color: $cor--3;
+        border: 1px solid $cor--2;
+
+        &:hover{
+            border: 1px solid $cor--1;
+            box-shadow: 0px 0px 5px $cor--2;
+        }
+    }
+    
+}

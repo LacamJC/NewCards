@@ -1,0 +1,29 @@
+$cor--1:#3b5998;
+$cor--2:#8b9dc3;
+$cor--3:#ffffff;
+
+#facebook:hover
+{
+    background-color: $cor--2;
+    border: 1px solid $cor--2;
+
+    .card__body--title{
+        color: $cor--3;
+    }
+
+    .card__body--text{
+        color: $cor--3;
+    }
+
+    .card__footer--btn
+    {
+        background-color: $cor--1;
+        color: $cor--3;
+        border: 1px solid $cor--2;
+
+        &:hover{
+            border: 1px solid $cor--1;
+        }
+    }
+    
+}

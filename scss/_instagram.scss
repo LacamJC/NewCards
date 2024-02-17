@@ -1,0 +1,30 @@
+$cor--1:#405DE6;
+$cor--2:#F56040;
+$cor--3:#FFBC00;
+
+#instagram:hover
+{
+    background-image: linear-gradient(45deg, $cor--2, $cor--1);
+    border: 1px solid transparent;
+
+    .card__body--title
+    {
+        color: white;
+    }
+
+    .card__body--text{
+        color: white;
+    }
+
+    .card__footer--btn
+    {
+        background-color: $cor--2;
+        color: white;
+        border: 1px solid $cor--2;
+
+        &:hover{
+            border: 1px solid $cor--2;
+        }
+    }
+    
+}
