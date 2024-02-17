@@ -63,12 +63,19 @@ $sombra--btn: rgba(0, 0, 0, 0.149);
         width: 100%;
         height: 50%;
 
+        .card__body--title
+        {
+            text-align: center;
+            font-size: 2rem;
+        }
+
         .card__body--text
         {
             // background-color: rgba(255, 166, 0, 0.5);
-            font-size: 1.1rem;
+            font-size: 1rem;
             padding: 5px 15px;
             letter-spacing: 1px;
+            transition: all 0.5s ease;
         }
     }
 
@@ -81,23 +88,25 @@ $sombra--btn: rgba(0, 0, 0, 0.149);
         justify-content: center;
         align-items: center;
 
+        .card__footer--a
+        {
+            text-decoration: none;
+        }
         .card__footer--btn
         {
-            // background-color: rgba(255, 0, 0, 0.411);
+            width: 240px;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            flex-direction: column;
-            // padding: 10px 80px;
-            text-decoration: none;
+            height: 40px;
             color: black;
             font-weight: bold;
             border-radius: 10px;
             letter-spacing: 1px;
-            font-size: 1.5rem;
+            font-size: 1.2em;
             border: 1px solid black;
             transition: all 0.5s ease;
-
             &:hover{
                 box-shadow: -2px 2px 3px $sombra--btn;
                 transform: translateX(2px) translateY(-2px);
@@ -111,10 +120,6 @@ $sombra--btn: rgba(0, 0, 0, 0.149);
                 transition: all 0.5s ease;
             }
 
-            &:hover .line{
-                border: 1px solid black;
-                width: 100%;
-            }
 
             
         }
